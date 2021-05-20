@@ -1,0 +1,30 @@
+.app_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.app_stats {
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  background-color: #f5f6fa;
+}
+.App {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+@media (max-width: 990px) {
+  .App {
+    flex-direction: column;
+  }
+}
+.app_left {
+  flex: 0.9;
+}
+.app_header > h1 {
+  color: red;
+  font-size: 2rem;
+}
